@@ -23,10 +23,10 @@
 
 declare(strict_types=1);
 
-namespace ChristophWurst\KItinerary\Sys;
+namespace Nextcloud\KItinerary\Sys;
 
-use ChristophWurst\KItinerary\Adapter;
-use ChristophWurst\KItinerary\Exception\KItineraryRuntimeException;
+use Nextcloud\KItinerary\Adapter;
+use Nextcloud\KItinerary\Exception\KItineraryRuntimeException;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
