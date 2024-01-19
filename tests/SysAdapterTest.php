@@ -24,11 +24,11 @@ declare(strict_types=1);
  *
  */
 
-namespace ChristophWurst\KItinerary\Sys\Tests\Unit;
+namespace Nextcloud\KItinerary\Sys\Tests\Unit;
 
 require_once __DIR__ . '/../src/SysAdapter.php';
 
-use ChristophWurst\KItinerary\Sys\SysAdapter;
+use Nextcloud\KItinerary\Sys\SysAdapter;
 use PHPUnit\Framework\TestCase;
 
 class SysAdapterTest extends TestCase {

@@ -1,23 +1,25 @@
 {
-    "name": "christophwurst/kitinerary-sys",
+    "name": "nextcloud/kitinerary-sys",
     "description": "KItinerary binding for the system package",
     "type": "library",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
-            "name": "Christoph Wurst",
-            "email": "christoph@winzerhof-wurst.at"
+            "name": "Christoph Wurst"
         }
     ],
+    "config": {
+        "sort-packages": true
+    },
     "require": {
-        "christophwurst/kitinerary": "^0.2.2",
+        "php": "^7.4 || ^8.0",
         "ext-json": "*",
-        "php": "^7.1 || ^8.0",
+        "nextcloud/kitinerary": "^1.0",
         "psr/log": "^1.1|^2.0|^3.0"
     },
     "autoload": {
         "psr-4": {
-            "ChristophWurst\\KItinerary\\Sys\\": "/src"
+            "Nextcloud\\KItinerary\\Sys\\": "/src"
         }
     },
     "require-dev": {
