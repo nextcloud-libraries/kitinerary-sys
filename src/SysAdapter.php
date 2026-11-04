@@ -59,7 +59,7 @@ class SysAdapter implements Adapter, LoggerAwareInterface
 			1 => ['pipe', 'w']
 		];
 		$binPath = 'kitinerary-extractor';
-		$proc = proc_open($binPath, $descriptors, $pipes);
+		$proc = proc_open([$binPath], $descriptors, $pipes);
 		if (!is_resource($proc)) {
 			$this->logger->warning('Could not open ' . realpath($binPath));
 			return false;
